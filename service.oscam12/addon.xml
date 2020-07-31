@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="service.oscam12"
        name="OSCam"
-       version="9.2.0.185"
+       version="9.2.0.186"
        provider-name="Team LibreELEC">
   <requires>
     <import addon="os.libreelec.tv" version="9.2"/>
@@ -14,7 +14,7 @@
   <extension point="xbmc.addon.metadata">
     <summary>OSCam: an Open Source Conditional Access Modul</summary>
     <description>
-OSCam(11581) is a software to be used to decrypt digital television channels, as an alternative for a conditional access module.
+OSCam(11582) is a software to be used to decrypt digital television channels, as an alternative for a conditional access module.
     </description>
     <disclaimer>
 
