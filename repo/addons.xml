@@ -1,5 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="service.tvheadend43" name="Tvheadend Server 4.3" version="10.0.289" provider-name="Team LibreELEC">
+  <requires><import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.python.script" library="download.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Tvheadend: a TV streaming server for Linux</summary>
+    <description>
+Tvheadend (4.3.1950): is a TV streaming server for Linux supporting DVB-S/S2, DVB-C, DVB-T/T2, IPTV, SAT>IP, ATSC and ISDB-T
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+100
+- initial LibreELEC version
+    </news>
+    <assets><icon>resources/icon.png</icon><fanart>resources/fanart.png</fanart>
+<screenshot>resources/screenshot-01.png</screenshot>
+<screenshot>resources/screenshot-02.png</screenshot>
+<screenshot>resources/screenshot-03.png</screenshot>
+<screenshot>resources/screenshot-04.png</screenshot>
+
+    </assets>
+  </extension>
+</addon>
+
+<addon id="service.oscam12"
+       name="OSCam"
+       version="10.0.202"
+       provider-name="Team LibreELEC">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>OSCam: an Open Source Conditional Access Modul</summary>
+    <description>
+OSCam(11691) is a software to be used to decrypt digital television channels, as an alternative for a conditional access module.
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+110
+- Update to version 11681
+
+109
+- Update to version 11518
+- fixed missing Modules
+
+108
+- Update to version 11517
+
+107
+- Update to version 11487
+
+106
+- Update to version 11431
+
+105
+- Update to version 11420
+- add SSL support
+
+104
+- Update to version 11391
+
+103
+- Update to version 11350
+
+102
+- fix the delayed start workaround
+
+101
+- Update to version 11233
+- fix the WeTek_Play problems
+
+100
+- Update for LibreELEC 8.0
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
+
 <addon id="repository.yellowdragon.libreelec.tv" name="LibreELEC TV Yellow Dragon Repository" version="10.0" provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
