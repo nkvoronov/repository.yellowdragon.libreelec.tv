@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="service.tvheadend43" name="Tvheadend Server 4.3" version="10.0.293" provider-name="Team LibreELEC">
+<addon id="service.tvheadend43" name="Tvheadend Server 4.3" version="10.0.294" provider-name="Team LibreELEC">
   <requires><import addon="xbmc.python" version="3.0.0"/>
 
   </requires>
@@ -13,7 +13,7 @@
   <extension point="xbmc.addon.metadata">
     <summary>Tvheadend: a TV streaming server for Linux</summary>
     <description>
-Tvheadend (4.3.1965): is a TV streaming server for Linux supporting DVB-S/S2, DVB-C, DVB-T/T2, IPTV, SAT>IP, ATSC and ISDB-T
+Tvheadend (4.3.1967): is a TV streaming server for Linux supporting DVB-S/S2, DVB-C, DVB-T/T2, IPTV, SAT>IP, ATSC and ISDB-T
     </description>
     <disclaimer>
 
