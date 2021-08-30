@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="service.tvheadend43" name="Tvheadend Server 4.3" version="10.0.296" provider-name="Team LibreELEC">
+<addon id="service.tvheadend43" name="Tvheadend Server 4.3" version="10.0.0.296" provider-name="Team LibreELEC">
   <requires><import addon="xbmc.python" version="3.0.0"/>
 
   </requires>
@@ -38,7 +38,7 @@ Tvheadend (4.3.1975): is a TV streaming server for Linux supporting DVB-S/S2, DV
 
 <addon id="service.oscam12"
        name="OSCam"
-       version="10.0.204"
+       version="10.0.0.204"
        provider-name="Team LibreELEC">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -101,14 +101,14 @@ OSCam(11695) is a software to be used to decrypt digital television channels, as
   </extension>
 </addon>
 
-<addon id="repository.yellowdragon.libreelec.tv" name="LibreELEC TV Yellow Dragon Repository" version="10.0" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon.libreelec.tv" name="LibreELEC TV Yellow Dragon Repository" version="10.0.0" provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.repository" name="LibreELEC TV Yellow Dragon Repository">
-		<info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.libreelec.tv/10.0/repo/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.libreelec.tv/10.0/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.libreelec.tv/10.0/repo/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.libreelec.tv/10.0.0/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.libreelec.tv/10.0.0/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.libreelec.tv/10.0.0/repo/</datadir>
 		<hashes>false</hashes>
 	</extension>
 	<extension point="xbmc.addon.metadata">
