@@ -38,7 +38,7 @@ Tvheadend (4.3.1979): is a TV streaming server for Linux supporting DVB-S/S2, DV
 
 <addon id="service.oscam12"
        name="OSCam"
-       version="10.0.0.204"
+       version="10.0.0.205"
        provider-name="Team LibreELEC">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -50,7 +50,7 @@ Tvheadend (4.3.1979): is a TV streaming server for Linux supporting DVB-S/S2, DV
   <extension point="xbmc.addon.metadata">
     <summary>OSCam: an Open Source Conditional Access Modul</summary>
     <description>
-OSCam(11695) is a software to be used to decrypt digital television channels, as an alternative for a conditional access module.
+OSCam(11696) is a software to be used to decrypt digital television channels, as an alternative for a conditional access module.
     </description>
     <disclaimer>
 
