@@ -20,6 +20,10 @@ Tvheadend (4.3.1981): is a TV streaming server for Linux supporting DVB-S/S2, DV
     </disclaimer>
     <platform>all</platform>
     <news>
+102
+- Update to 4.3-1979
+- include missing x254 library for Generic
+
 101
 - Update to 4.3-1967
 
