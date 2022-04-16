@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="service.tvheadend43" name="Tvheadend Server 4.3" version="10.0.0.309" provider-name="Team LibreELEC">
+  <requires><import addon="xbmc.python" version="3.0.0"/>
+
+  </requires>
+  <extension point="xbmc.service" library="default.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.python.script" library="download.py">
+    <provides></provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Tvheadend: a TV streaming server for Linux</summary>
+    <description>
+Tvheadend (4.3.2023): is a TV streaming server for Linux supporting DVB-S/S2, DVB-C, DVB-T/T2, IPTV, SAT>IP, ATSC and ISDB-T
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+102
+- Update to 4.3-1979
+- include missing x254 library for Generic
+
+101
+- Update to 4.3-1967
+
+100
+- initial LibreELEC version
+    </news>
+    <assets><icon>resources/icon.png</icon><fanart>resources/fanart.png</fanart>
+<screenshot>resources/screenshot-01.png</screenshot>
+<screenshot>resources/screenshot-02.png</screenshot>
+<screenshot>resources/screenshot-03.png</screenshot>
+<screenshot>resources/screenshot-04.png</screenshot>
+
+    </assets>
+  </extension>
+</addon>
+
 <addon id="service.oscam12"
        name="OSCam"
        version="10.0.0.208"
@@ -89,45 +129,5 @@ OSCam(11704) is a software to be used to decrypt digital television channels, as
 		</assets>
 		<news></news>
 	</extension>
-</addon>
-
-<addon id="service.tvheadend43" name="Tvheadend Server 4.3" version="10.0.0.308" provider-name="Team LibreELEC">
-  <requires><import addon="xbmc.python" version="3.0.0"/>
-
-  </requires>
-  <extension point="xbmc.service" library="default.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.python.script" library="download.py">
-    <provides></provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Tvheadend: a TV streaming server for Linux</summary>
-    <description>
-Tvheadend (4.3.2018): is a TV streaming server for Linux supporting DVB-S/S2, DVB-C, DVB-T/T2, IPTV, SAT>IP, ATSC and ISDB-T
-    </description>
-    <disclaimer>
-
-    </disclaimer>
-    <platform>all</platform>
-    <news>
-102
-- Update to 4.3-1979
-- include missing x254 library for Generic
-
-101
-- Update to 4.3-1967
-
-100
-- initial LibreELEC version
-    </news>
-    <assets><icon>resources/icon.png</icon><fanart>resources/fanart.png</fanart>
-<screenshot>resources/screenshot-01.png</screenshot>
-<screenshot>resources/screenshot-02.png</screenshot>
-<screenshot>resources/screenshot-03.png</screenshot>
-<screenshot>resources/screenshot-04.png</screenshot>
-
-    </assets>
-  </extension>
 </addon>
 </addons>
