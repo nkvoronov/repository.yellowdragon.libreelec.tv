@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="service.tvheadend43" name="Tvheadend Server 4.3" version="10.0.0.314" provider-name="Team LibreELEC">
+<addon id="service.tvheadend43" name="Tvheadend Server 4.3" version="11.0.0.315" provider-name="Team LibreELEC">
   <requires><import addon="xbmc.python" version="3.0.0"/>
 
   </requires>
@@ -13,7 +13,7 @@
   <extension point="xbmc.addon.metadata">
     <summary>Tvheadend: a TV streaming server for Linux</summary>
     <description>
-Tvheadend (4.3.2033): is a TV streaming server for Linux supporting DVB-S/S2, DVB-C, DVB-T/T2, IPTV, SAT>IP, ATSC and ISDB-T
+Tvheadend (4.3.2120): is a TV streaming server for Linux supporting DVB-S/S2, DVB-C, DVB-T/T2, IPTV, SAT>IP, ATSC and ISDB-T
     </description>
     <disclaimer>
 
@@ -42,7 +42,7 @@ Tvheadend (4.3.2033): is a TV streaming server for Linux supporting DVB-S/S2, DV
 
 <addon id="service.oscam12"
        name="OSCam"
-       version="10.0.0.212"
+       version="11.0.0.213"
        provider-name="Team LibreELEC">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -54,7 +54,7 @@ Tvheadend (4.3.2033): is a TV streaming server for Linux supporting DVB-S/S2, DV
   <extension point="xbmc.addon.metadata">
     <summary>OSCam: an Open Source Conditional Access Modul</summary>
     <description>
-OSCam(11713) is a software to be used to decrypt digital television channels, as an alternative for a conditional access module.
+OSCam(11718) is a software to be used to decrypt digital television channels, as an alternative for a conditional access module.
     </description>
     <disclaimer>
 
@@ -105,14 +105,14 @@ OSCam(11713) is a software to be used to decrypt digital television channels, as
   </extension>
 </addon>
 
-<addon id="repository.yellowdragon.libreelec.tv" name="LibreELEC TV Yellow Dragon Repository" version="10.0.0" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon.libreelec.tv" name="LibreELEC TV Yellow Dragon Repository" version="11.0.0" provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.repository" name="LibreELEC TV Yellow Dragon Repository">
-		<info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.libreelec.tv/10.0.0/repo/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.libreelec.tv/10.0.0/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.libreelec.tv/10.0.0/repo/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.libreelec.tv/11.0.0/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.libreelec.tv/11.0.0/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.libreelec.tv/11.0.0/repo/</datadir>
 		<hashes>false</hashes>
 	</extension>
 	<extension point="xbmc.addon.metadata">
